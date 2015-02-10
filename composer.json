@@ -1,0 +1,26 @@
+{
+  "name": "mawoscha/german-localepack-de-at",
+  "type": "magento-module",
+  "license":"OSL-3.0",
+  "description":"German (Austria) Community Translation",
+  "authors":[
+    {
+      "name":"MaWoScha"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "magento-root-dir": "./",
+    "magento-deploystrategy": "copy",
+    "map": [
+      ["./app/code/community/German/LocalePackAt", "./app/code/community/German/LocalePackAt"],
+      ["./app/etc/modules/German_LocalePackAt.xml", "./app/etc/modules/German_LocalePackAt.xml"],
+      ["./app/locale/de_AT/German_LocaleAt.csv", "./app/locale/de_AT/German_LocaleAt.csv"]
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
