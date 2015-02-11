@@ -13,9 +13,9 @@ German language pack for Magento Commerce - Version for Austria
 Paquete de idioma alemana para Magento Commerce - Versión para Austria</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.1.0</version>
+   <version>0.2.0</version>
    <stability>stable</stability>
-   <notes>Compatible with Magento 1.6.x-1.9.2.x</notes>
+   <notes>none</notes>
    <authors>
       <name>
          <name>Rico Neitzel</name>
@@ -23,7 +23,7 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
       </name>
       <user>
          <user>rizi</user>
-         <user>MaWoScha</user>
+         <user>mawoscha</user>
       </user>
       <email>
          <email>rico@buro71a.de</email>
@@ -65,19 +65,223 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
    <contents>
       <target>
          <target>magelocal</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
          <target>magelocale</target>
       </target>
       <path>
          <path/>
+         <path>adminhtml/default/default/locale/de_AT/translate.csv</path>
+         <path>frontend/default/default/locale/de_AT/translate.csv</path>
+         <path>frontend/rwd/default/locale/de_AT/translate.csv</path>
          <path>German/LocalePackAt</path>
          <path>modules/German_LocalePackAt.xml</path>
+         <path>de_AT/Mage_Adminhtml.csv</path>
+         <path>de_AT/Mage_AdminNotification.csv</path>
+         <path>de_AT/Mage_AmazonPayments.csv</path>
+         <path>de_AT/Mage_Api.csv</path>
+         <path>de_AT/Mage_Api2.csv</path>
+         <path>de_AT/Mage_Authorizenet.csv</path>
+         <path>de_AT/Mage_Backup.csv</path>
+         <path>de_AT/Mage_Bundle.csv</path>
+         <path>de_AT/Mage_Captcha.csv</path>
+         <path>de_AT/Mage_Catalog.csv</path>
+         <path>de_AT/Mage_CatalogInventory.csv</path>
+         <path>de_AT/Mage_CatalogRule.csv</path>
+         <path>de_AT/Mage_CatalogSearch.csv</path>
+         <path>de_AT/Mage_Centinel.csv</path>
+         <path>de_AT/Mage_Checkout.csv</path>
+         <path>de_AT/Mage_Cms.csv</path>
+         <path>de_AT/Mage_Compiler.csv</path>
+         <path>de_AT/Mage_ConfigurableSwatches.csv</path>
+         <path>de_AT/Mage_Connect.csv</path>
+         <path>de_AT/Mage_Contacts.csv</path>
+         <path>de_AT/Mage_Core.csv</path>
+         <path>de_AT/Mage_Cron.csv</path>
+         <path>de_AT/Mage_CurrencySymbol.csv</path>
+         <path>de_AT/Mage_Customer.csv</path>
+         <path>de_AT/Mage_Dataflow.csv</path>
+         <path>de_AT/Mage_Directory.csv</path>
+         <path>de_AT/Mage_Downloadable.csv</path>
+         <path>de_AT/Mage_Eav.csv</path>
+         <path>de_AT/Mage_GiftMessage.csv</path>
+         <path>de_AT/Mage_GoogleAnalytics.csv</path>
+         <path>de_AT/Mage_GoogleBase.csv</path>
+         <path>de_AT/Mage_GoogleCheckout.csv</path>
+         <path>de_AT/Mage_ImportExport.csv</path>
+         <path>de_AT/Mage_Index.csv</path>
+         <path>de_AT/Mage_Install.csv</path>
+         <path>de_AT/Mage_Log.csv</path>
+         <path>de_AT/Mage_Media.csv</path>
+         <path>de_AT/Mage_Newsletter.csv</path>
+         <path>de_AT/Mage_Oauth.csv</path>
+         <path>de_AT/Mage_Page.csv</path>
+         <path>de_AT/Mage_PageCache.csv</path>
+         <path>de_AT/Mage_Paygate.csv</path>
+         <path>de_AT/Mage_Payment.csv</path>
+         <path>de_AT/Mage_Paypal.csv</path>
+         <path>de_AT/Mage_PaypalUk.csv</path>
+         <path>de_AT/Mage_Persistent.csv</path>
+         <path>de_AT/Mage_Poll.csv</path>
+         <path>de_AT/Mage_ProductAlert.csv</path>
+         <path>de_AT/Mage_Rating.csv</path>
+         <path>de_AT/Mage_Reports.csv</path>
+         <path>de_AT/Mage_Review.csv</path>
+         <path>de_AT/Mage_Rss.csv</path>
+         <path>de_AT/Mage_Rule.csv</path>
+         <path>de_AT/Mage_Sales.csv</path>
+         <path>de_AT/Mage_SalesRule.csv</path>
+         <path>de_AT/Mage_Sendfriend.csv</path>
+         <path>de_AT/Mage_Shipping.csv</path>
+         <path>de_AT/Mage_Sitemap.csv</path>
+         <path>de_AT/Mage_Tag.csv</path>
+         <path>de_AT/Mage_Tax.csv</path>
+         <path>de_AT/Mage_Usa.csv</path>
+         <path>de_AT/Mage_Weee.csv</path>
+         <path>de_AT/Mage_Widget.csv</path>
+         <path>de_AT/Mage_Wishlist.csv</path>
+         <path>de_AT/Mage_XmlConnect.csv</path>
          <path>de_AT/German_LocaleAt.csv</path>
       </path>
       <type>
          <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
       </type>
@@ -86,9 +290,145 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>

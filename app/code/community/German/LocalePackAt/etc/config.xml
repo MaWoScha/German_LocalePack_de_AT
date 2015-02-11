@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackAt>
-            <version>0.1.0</version>
+            <version>0.2.0</version>
             <locale>de_AT</locale>
             <title>German (Austria) Language Pack</title>
             <link_git>https://github.com/MaWoScha/German_LocalePack_de_AT</link_git>

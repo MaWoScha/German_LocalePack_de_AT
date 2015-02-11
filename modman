@@ -16,8 +16,76 @@ app/etc/modules/German_LocalePackAt.xml                       app/etc/modules/Ge
 app/locale/de_AT/German_LocaleAt.csv app/locale/de_AT/German_LocaleAt.csv
 
 #Adminhtml und Default Theme
+app/design/adminhtml/default/default/locale/de_AT/translate.csv     app/design/adminhtml/default/default/locale/de_AT/translate.csv
+app/design/frontend/default/default/locale/de_AT/translate.csv      app/design/frontend/default/default/locale/de_AT/translate.csv
+app/design/frontend/rwd/default/locale/de_AT/translate.csv          app/design/frontend/rwd/default/locale/de_AT/translate.csv
 
 #CoreTranslation
+app/locale/de_AT/Mage_Adminhtml.csv app/locale/de_AT/Mage_Adminhtml.csv
+app/locale/de_AT/Mage_AdminNotification.csv app/locale/de_AT/Mage_AdminNotification.csv
+app/locale/de_AT/Mage_AmazonPayments.csv app/locale/de_AT/Mage_AmazonPayments.csv
+app/locale/de_AT/Mage_Api.csv app/locale/de_AT/Mage_Api.csv
+app/locale/de_AT/Mage_Api2.csv app/locale/de_AT/Mage_Api2.csv
+app/locale/de_AT/Mage_Authorizenet.csv app/locale/de_AT/Mage_Authorizenet.csv
+app/locale/de_AT/Mage_Backup.csv app/locale/de_AT/Mage_Backup.csv
+app/locale/de_AT/Mage_Bundle.csv app/locale/de_AT/Mage_Bundle.csv
+app/locale/de_AT/Mage_Captcha.csv app/locale/de_AT/Mage_Captcha.csv
+app/locale/de_AT/Mage_Catalog.csv app/locale/de_AT/Mage_Catalog.csv
+app/locale/de_AT/Mage_CatalogInventory.csv app/locale/de_AT/Mage_CatalogInventory.csv
+app/locale/de_AT/Mage_CatalogRule.csv app/locale/de_AT/Mage_CatalogRule.csv
+app/locale/de_AT/Mage_CatalogSearch.csv app/locale/de_AT/Mage_CatalogSearch.csv
+app/locale/de_AT/Mage_Centinel.csv app/locale/de_AT/Mage_Centinel.csv
+app/locale/de_AT/Mage_Checkout.csv app/locale/de_AT/Mage_Checkout.csv
+app/locale/de_AT/Mage_Cms.csv app/locale/de_AT/Mage_Cms.csv
+app/locale/de_AT/Mage_Compiler.csv app/locale/de_AT/Mage_Compiler.csv
+app/locale/de_AT/Mage_Connect.csv app/locale/de_AT/Mage_Connect.csv
+app/locale/de_AT/Mage_Contacts.csv app/locale/de_AT/Mage_Contacts.csv
+app/locale/de_AT/Mage_Core.csv app/locale/de_AT/Mage_Core.csv
+app/locale/de_AT/Mage_Cron.csv app/locale/de_AT/Mage_Cron.csv
+app/locale/de_AT/Mage_CurrencySymbol.csv app/locale/de_AT/Mage_CurrencySymbol.csv
+app/locale/de_AT/Mage_Customer.csv app/locale/de_AT/Mage_Customer.csv
+app/locale/de_AT/Mage_Dataflow.csv app/locale/de_AT/Mage_Dataflow.csv
+app/locale/de_AT/Mage_Directory.csv app/locale/de_AT/Mage_Directory.csv
+app/locale/de_AT/Mage_Downloadable.csv app/locale/de_AT/Mage_Downloadable.csv
+app/locale/de_AT/Mage_Eav.csv app/locale/de_AT/Mage_Eav.csv
+app/locale/de_AT/Mage_GiftMessage.csv app/locale/de_AT/Mage_GiftMessage.csv
+app/locale/de_AT/Mage_GoogleAnalytics.csv app/locale/de_AT/Mage_GoogleAnalytics.csv
+app/locale/de_AT/Mage_GoogleBase.csv app/locale/de_AT/Mage_GoogleBase.csv
+app/locale/de_AT/Mage_GoogleCheckout.csv app/locale/de_AT/Mage_GoogleCheckout.csv
+app/locale/de_AT/Mage_ImportExport.csv app/locale/de_AT/Mage_ImportExport.csv
+app/locale/de_AT/Mage_Index.csv app/locale/de_AT/Mage_Index.csv
+app/locale/de_AT/Mage_Install.csv app/locale/de_AT/Mage_Install.csv
+app/locale/de_AT/Mage_Log.csv app/locale/de_AT/Mage_Log.csv
+app/locale/de_AT/Mage_Media.csv app/locale/de_AT/Mage_Media.csv
+app/locale/de_AT/Mage_Newsletter.csv app/locale/de_AT/Mage_Newsletter.csv
+app/locale/de_AT/Mage_OAuth.csv app/locale/de_AT/Mage_OAuth.csv
+app/locale/de_AT/Mage_Page.csv app/locale/de_AT/Mage_Page.csv
+app/locale/de_AT/Mage_PageCache.csv app/locale/de_AT/Mage_PageCache.csv
+app/locale/de_AT/Mage_Paygate.csv app/locale/de_AT/Mage_Paygate.csv
+app/locale/de_AT/Mage_Payment.csv app/locale/de_AT/Mage_Payment.csv
+app/locale/de_AT/Mage_Paypal.csv app/locale/de_AT/Mage_Paypal.csv
+app/locale/de_AT/Mage_PaypalUk.csv app/locale/de_AT/Mage_PaypalUk.csv
+app/locale/de_AT/Mage_Persistent.csv app/locale/de_AT/Mage_Persistent.csv
+app/locale/de_AT/Mage_Poll.csv app/locale/de_AT/Mage_Poll.csv
+app/locale/de_AT/Mage_ProductAlert.csv app/locale/de_AT/Mage_ProductAlert.csv
+app/locale/de_AT/Mage_Rating.csv app/locale/de_AT/Mage_Rating.csv
+app/locale/de_AT/Mage_Reports.csv app/locale/de_AT/Mage_Reports.csv
+app/locale/de_AT/Mage_Review.csv app/locale/de_AT/Mage_Review.csv
+app/locale/de_AT/Mage_Rss.csv app/locale/de_AT/Mage_Rss.csv
+app/locale/de_AT/Mage_Rule.csv app/locale/de_AT/Mage_Rule.csv
+app/locale/de_AT/Mage_Sales.csv app/locale/de_AT/Mage_Sales.csv
+app/locale/de_AT/Mage_SalesRule.csv app/locale/de_AT/Mage_SalesRule.csv
+app/locale/de_AT/Mage_Sendfriend.csv app/locale/de_AT/Mage_Sendfriend.csv
+app/locale/de_AT/Mage_Shipping.csv app/locale/de_AT/Mage_Shipping.csv
+app/locale/de_AT/Mage_Sitemap.csv app/locale/de_AT/Mage_Sitemap.csv
+app/locale/de_AT/Mage_Tag.csv app/locale/de_AT/Mage_Tag.csv
+app/locale/de_AT/Mage_Tax.csv app/locale/de_AT/Mage_Tax.csv
+app/locale/de_AT/Mage_Usa.csv app/locale/de_AT/Mage_Usa.csv
+app/locale/de_AT/Mage_Weee.csv app/locale/de_AT/Mage_Weee.csv
+app/locale/de_AT/Mage_Widget.csv app/locale/de_AT/Mage_Widget.csv
+app/locale/de_AT/Mage_Wishlist.csv app/locale/de_AT/Mage_Wishlist.csv
+app/locale/de_AT/Mage_XmlConnect.csv app/locale/de_AT/Mage_XmlConnect.csv
+app/locale/de_AT/Phoenix_Moneybookers.csv app/locale/de_AT/Phoenix_Moneybookers.csv
 
 
 # Clear the cache
