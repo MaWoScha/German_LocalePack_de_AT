@@ -4,7 +4,7 @@
  * @package   German_LocalePack
  * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
  * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
- * @version   0.1.0
+ * @version   0.3.0
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class German_LocalePackAt_Block_System_Config_Form_Fieldset_Instructions
@@ -59,7 +59,7 @@ class German_LocalePackAt_Block_System_Config_Form_Fieldset_Instructions
 		$html .= $helper->__("In order to ensure the translation Magento coverage, please see the information in the lower paragraphs!");
         $html .= "</p>";
         $html .= "<p style='text-align:right;'>";
-        $html .= $helper->__("powered by")." <a href='http://blog.siempro.co/' target='_blank'>MaWoScha</a>";
+        $html .= $helper->__("powered by")." <a href='http://blog.siempro.co/' target='_blank'>MaWoScha</a> ".$helper->__("and")." <a href='http://www.matthias-zeis.com/' target='_blank'>Matthias Zeis</a>";
         $html .= "</p>";
         $html .= $this->_getFooterHtml($element);
 
