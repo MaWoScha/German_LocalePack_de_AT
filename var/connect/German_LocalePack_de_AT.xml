@@ -13,7 +13,7 @@ German language pack for Magento Commerce - Version for Austria
 Paquete de idioma alemana para Magento Commerce - Versión para Austria</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.4.0</version>
+   <version>0.4.1</version>
    <stability>stable</stability>
    <notes>none</notes>
    <authors>
@@ -70,6 +70,7 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
          <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
@@ -204,6 +205,7 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
          <path>de_AT/Mage_Sitemap.csv</path>
          <path>de_AT/Mage_Tag.csv</path>
          <path>de_AT/Mage_Tax.csv</path>
+         <path>de_AT/Mage_Uploader</path>
          <path>de_AT/Mage_Usa.csv</path>
          <path>de_AT/Mage_Weee.csv</path>
          <path>de_AT/Mage_Widget.csv</path>
@@ -217,6 +219,7 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
          <type>file</type>
          <type>file</type>
          <type>dir</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -358,9 +361,11 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
          <include/>
          <include/>
          <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>

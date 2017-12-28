@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackAt>
-            <version>0.4.0</version>
+            <version>0.4.1</version>
             <locale>de_AT</locale>
             <title>German (Austria) Language Pack</title>
             <link_git>https://github.com/MaWoScha/German_LocalePack_de_AT</link_git>
@@ -63,7 +63,7 @@
             <updates>
                 <localepackat>
                     <files>
-                    	<default>localepackat.xml</default>
+                        <default>localepackat.xml</default>
                     </files>
                 </localepackat>
             </updates>
@@ -91,11 +91,11 @@
                                     <children> <!--
                                         <localepacks translate="title" module="localepackat">
                                             <title>Language Packs</title>
-                                    		<children> -->
-                                        		<localepackat translate="title" module="localepackat">
-                                            		<title>German (Austria) Language Pack</title>
-                                        		</localepackat> <!--
-                                    		</children>
+                                            <children> -->
+                                                <localepackat translate="title" module="localepackat">
+                                                    <title>German (Austria) Language Pack</title>
+                                                </localepackat> <!--
+                                            </children>
                                         </localepacks> -->
                                     </children>
                                 </config>

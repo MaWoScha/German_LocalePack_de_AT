@@ -10,51 +10,51 @@
  */
  -->
 <config>
-	<tabs>
-		<localepacks translate="label" module="localepackat">
-			<label>Locale Packs</label>
-			<sort_order>150</sort_order>
-		</localepacks>
-	</tabs>
-	<sections>
-		<localepackat module="localepackat">
-			<label>Locale de_AT</label>
-			<tab>localepacks</tab>
-			<sort_order>23</sort_order>
-			<show_in_default>1</show_in_default>
-			<show_in_website>0</show_in_website>
-			<show_in_store>0</show_in_store>
-			<groups>
-				<maininfo translate="label" module="localepackat">
-					<label>German language package de_AT - Community Edition (CE)</label>
-					<frontend_type>text</frontend_type>
+    <tabs>
+        <localepacks translate="label" module="localepackat">
+            <label>Locale Packs</label>
+            <sort_order>150</sort_order>
+        </localepacks>
+    </tabs>
+    <sections>
+        <localepackat module="localepackat">
+            <label>Locale de_AT</label>
+            <tab>localepacks</tab>
+            <sort_order>23</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>0</show_in_website>
+            <show_in_store>0</show_in_store>
+            <groups>
+                <maininfo translate="label" module="localepackat">
+                    <label>German language package de_AT - Community Edition (CE)</label>
+                    <frontend_type>text</frontend_type>
                     <frontend_model>localepackat/system_config_form_fieldset_instructions</frontend_model>
-					<sort_order>10</sort_order>
-					<show_in_default>1</show_in_default>
-					<show_in_website>0</show_in_website>
-					<show_in_store>0</show_in_store>
-				</maininfo>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                </maininfo>
 
-				<tipps_translation translate="label" module="localepackat">
-					<label>Using your own translations</label>
-					<frontend_type>text</frontend_type>
-					<sort_order>50</sort_order>
-					<show_in_default>1</show_in_default>
-					<show_in_website>0</show_in_website>
-					<show_in_store>0</show_in_store>
-					<comment>More Infos here soon!</comment>
-				</tipps_translation>
+                <tipps_translation translate="label" module="localepackat">
+                    <label>Using your own translations</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <comment>More Infos here soon!</comment>
+                </tipps_translation>
 
-				<additional_extensions translate="label" module="localepackat">
-					<label>Recommended extensions</label>
-					<frontend_type>text</frontend_type>
+                <additional_extensions translate="label" module="localepackat">
+                    <label>Recommended extensions</label>
+                    <frontend_type>text</frontend_type>
                     <frontend_model>localepackat/system_config_form_fieldset_extensions</frontend_model>
-					<sort_order>60</sort_order>
-					<show_in_default>1</show_in_default>
-					<show_in_website>0</show_in_website>
-					<show_in_store>0</show_in_store>
-				</additional_extensions>
-			</groups>
-		</localepackat>
-	</sections>
+                    <sort_order>60</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                </additional_extensions>
+            </groups>
+        </localepackat>
+    </sections>
 </config>
