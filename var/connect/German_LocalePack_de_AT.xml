@@ -31,7 +31,7 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
       </email>
    </authors>
    <depends_php_min>5.2.0</depends_php_min>
-   <depends_php_max>6.0.0</depends_php_max>
+   <depends_php_max>7.1.0</depends_php_max>
    <depends>
       <package>
          <name>
@@ -70,6 +70,7 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
          <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
@@ -205,12 +206,13 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
          <path>de_AT/Mage_Sitemap.csv</path>
          <path>de_AT/Mage_Tag.csv</path>
          <path>de_AT/Mage_Tax.csv</path>
-         <path>de_AT/Mage_Uploader</path>
+         <path>de_AT/Mage_Uploader.csv</path>
          <path>de_AT/Mage_Usa.csv</path>
          <path>de_AT/Mage_Weee.csv</path>
          <path>de_AT/Mage_Widget.csv</path>
          <path>de_AT/Mage_Wishlist.csv</path>
          <path>de_AT/Mage_XmlConnect.csv</path>
+         <path>de_AT/Phoenix_Moneybookers.csv</path>
          <path>de_AT/German_LocaleAt.csv</path>
       </path>
       <type>
@@ -219,6 +221,7 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
          <type>file</type>
          <type>file</type>
          <type>dir</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -362,9 +365,11 @@ Paquete de idioma alemana para Magento Commerce - Versión para Austria</descrip
          <include/>
          <include/>
          <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>

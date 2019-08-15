@@ -2,8 +2,8 @@
 /**
  * @category  German
  * @package   German_LocalePack
- * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
- * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
+ * @authors   MaWoScha
+ * @developer MaWoScha
  * @version   0.3.0
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
@@ -26,8 +26,8 @@ class German_LocalePackAt_Block_System_Config_Form_Fieldset_Instructions
         $html .= "</p>";
     if (!array_key_exists("German_LocaleFallback", $modules)) {
         $html .= "<p>".$helper->__("Note: Install the extension %s, so you can use %s as a <a href='%s'>fallback language</a>.",
-                "de_DE",
                 "<a href='https://github.com/MaWoScha/German_LocaleFallback'>German LocaleFallback</a>",
+                "de_DE",
                 $section_link )."</p>";
     } else if (!array_key_exists("German_LocalePackDe", $modules)) {
         $html .= "<p>".$helper->__("Note: Install the language package %s to use it as a <a href='%s'>fallback language</a>.",
